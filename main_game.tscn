@@ -1,7 +1,8 @@
-[gd_scene load_steps=3 format=3 uid="uid://c6gsdn3u16xn5"]
+[gd_scene load_steps=4 format=3 uid="uid://c6gsdn3u16xn5"]
 
 [ext_resource type="Script" path="res://main_game.gd" id="1_o5oj7"]
-[ext_resource type="Texture2D" uid="uid://dtlgcx8ieex2x" path="res://Field.jpg" id="2_kagfd"]
+[ext_resource type="Texture2D" uid="uid://bkxn04x8fh3lr" path="res://Resources/fieldbackground.jpg" id="2_flwtj"]
+[ext_resource type="Texture2D" uid="uid://b4ynse1rmydv4" path="res://Resources/scoreboard.jpg" id="3_1f0oq"]
 
 [node name="MainGame" type="Control"]
 layout_mode = 3
@@ -16,7 +17,16 @@ offset_left = -1.0
 offset_top = -8.0
 offset_right = 1947.0
 offset_bottom = 1079.0
-texture = ExtResource("2_kagfd")
+texture = ExtResource("2_flwtj")
+
+[node name="Scoreboard" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 18.0
+offset_top = 12.0
+offset_right = 1810.0
+offset_bottom = 1036.0
+scale = Vector2(0.265187, 0.245514)
+texture = ExtResource("3_1f0oq")
 
 [node name="AddPointsButton" type="Button" parent="."]
 show_behind_parent = true
@@ -28,10 +38,11 @@ offset_bottom = 1047.0
 
 [node name="PointsLabel" type="Label" parent="."]
 layout_mode = 0
-offset_left = 24.0
-offset_top = 12.0
-offset_right = 116.0
-offset_bottom = 56.0
+offset_left = 198.0
+offset_top = 112.0
+offset_right = 308.0
+offset_bottom = 156.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
 text = "Trees Saved: 0"
 
 [connection signal="pressed" from="AddPointsButton" to="." method="_on_AddPointsButton_pressed"]

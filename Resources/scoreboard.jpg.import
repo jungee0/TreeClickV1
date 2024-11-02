@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dv4fw4l1sxeml"
-path="res://.godot/imported/oldtree.png-d0ac698a62e2319a8db6538fa205ec01.ctex"
+uid="uid://b4ynse1rmydv4"
+path="res://.godot/imported/scoreboard.jpg-d9653d9d42774f4fa024eb4fceadf87a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://oldtree.png"
-dest_files=["res://.godot/imported/oldtree.png-d0ac698a62e2319a8db6538fa205ec01.ctex"]
+source_file="res://Resources/scoreboard.jpg"
+dest_files=["res://.godot/imported/scoreboard.jpg-d9653d9d42774f4fa024eb4fceadf87a.ctex"]
 
 [params]
 

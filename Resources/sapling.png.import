@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c8jxdqjkj0b1h"
-path="res://.godot/imported/adulttree.png-b60c1776f8c31852efd305d05b418027.ctex"
+uid="uid://dretrdq3dbqg3"
+path="res://.godot/imported/sapling.png-d6378d96c9684f10a940c54b19d6a57f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://adulttree.png"
-dest_files=["res://.godot/imported/adulttree.png-b60c1776f8c31852efd305d05b418027.ctex"]
+source_file="res://Resources/sapling.png"
+dest_files=["res://.godot/imported/sapling.png-d6378d96c9684f10a940c54b19d6a57f.ctex"]
 
 [params]
 

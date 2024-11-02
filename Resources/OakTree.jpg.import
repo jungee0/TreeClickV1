@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bjwstftp2kd36"
-path="res://.godot/imported/OakTree.jpg-3f75d577e42a35ad0041bc2aa3cc4611.ctex"
+path="res://.godot/imported/OakTree.jpg-27aeea3621d72c465ea12725cddb6fa5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://OakTree.jpg"
-dest_files=["res://.godot/imported/OakTree.jpg-3f75d577e42a35ad0041bc2aa3cc4611.ctex"]
+source_file="res://Resources/OakTree.jpg"
+dest_files=["res://.godot/imported/OakTree.jpg-27aeea3621d72c465ea12725cddb6fa5.ctex"]
 
 [params]
 
