@@ -1,0 +1,37 @@
+[gd_scene load_steps=3 format=3 uid="uid://c6gsdn3u16xn5"]
+
+[ext_resource type="Script" path="res://main_game.gd" id="1_o5oj7"]
+[ext_resource type="Texture2D" uid="uid://dtlgcx8ieex2x" path="res://Field.jpg" id="2_kagfd"]
+
+[node name="MainGame" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("1_o5oj7")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = -1.0
+offset_top = -8.0
+offset_right = 1947.0
+offset_bottom = 1079.0
+texture = ExtResource("2_kagfd")
+
+[node name="AddPointsButton" type="Button" parent="."]
+show_behind_parent = true
+layout_mode = 0
+offset_left = -7.0
+offset_top = -6.0
+offset_right = 1948.0
+offset_bottom = 1047.0
+
+[node name="PointsLabel" type="Label" parent="."]
+layout_mode = 0
+offset_left = 24.0
+offset_top = 12.0
+offset_right = 116.0
+offset_bottom = 56.0
+text = "Trees Saved: 0"
+
+[connection signal="pressed" from="AddPointsButton" to="." method="_on_AddPointsButton_pressed"]
