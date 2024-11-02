@@ -22,8 +22,8 @@ texture = ExtResource("2_kagfd")
 show_behind_parent = true
 layout_mode = 0
 offset_left = -7.0
-offset_top = -6.0
-offset_right = 1948.0
+offset_top = -11.0
+offset_right = 1953.0
 offset_bottom = 1047.0
 
 [node name="PointsLabel" type="Label" parent="."]
